@@ -1,0 +1,13 @@
+java -javaagent:opentelemetry-javaagent.jar \
+-Dotel.javaagent.extensions=bl.greenit.java-otel-energy-extension.jar \
+-Dotel.exporter.otlp.protocol="http/protobuf" \
+-Dotel.exporter.otlp.endpoint="http://localhost:4318" \
+-Dotel.service.name=green-it-backend \
+-Dotel.instrumentation.jdbc.experimental.capture-query-parameters=true \
+-Dotel.instrumentation.common.enduser.id.enabled=true \
+-Dotel.instrumentation.jdbc.statement-sanitizer.enabled=true \
+-Dbl.greenit.log.disk.demand=true \
+-Dbl.greenit.log.network.demand=true \
+-Dbl.greenit.emissions.cloud.provider=AWS \
+-Dbl.greenit.emissions.cloud.provider.region=eu-west-3 \
+-jar target/PetStore-Monolithique-0.0.1-SNAPSHOT.jar
