@@ -1,6 +1,6 @@
 # Benchmarking Energy Consumption of Frontend Frameworks
 
-This repository aims to benchmark the energy consumption of frontend scenarios by automating user interactions and analyzing power consumption data. You can find the benchmark dataset on [Google Drive](https://drive.google.com/file/d/1-UL1eXERxgN5thtZQLVLnYdYK63Pdj_f/view?usp=sharing). #More details on this project [here](https://berger-levrault.atlassian.net/wiki/x/IIE2LQ).
+This repository aims to benchmark the energy consumption of frontend scenarios by automating user interactions and analyzing power consumption data. You can find the benchmark dataset on [Google Drive](https://drive.google.com/file/d/1-UL1eXERxgN5thtZQLVLnYdYK63Pdj_f/view?usp=sharing). <!--More details on this project [here](https://berger-levrault.atlassian.net/wiki/x/IIE2LQ).-->
 
 ---
 
